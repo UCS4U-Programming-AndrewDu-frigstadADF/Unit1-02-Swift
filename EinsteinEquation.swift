@@ -1,0 +1,7 @@
+print("How much mass (in kilograms)?")
+let UserMassString = readLine()
+let UserMassInt = Double(UserMassString!)
+var SpeedOfLight = Double(2.998 * (pow(10, 8d)))
+var JoulesCalc = Double(UserMassInt * pow(SpeedOfLight, 2d))
+print("This is how many Joules of energy would be created: ")
+print(JoulesCalc)
